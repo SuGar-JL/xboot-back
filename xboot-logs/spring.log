@@ -1,0 +1,293 @@
+2020-08-06 22:20:22.628  INFO 74792 --- [restartedMain] cn.exrick.xboot.XbootApplication         : Starting XbootApplication on SuGar with PID 74792 (started by DELL in D:\学习\Xboot\xboot-plus-master\xboot-plus-back)
+2020-08-06 22:20:22.639  INFO 74792 --- [restartedMain] cn.exrick.xboot.XbootApplication         : No active profile set, falling back to default profiles: default
+2020-08-06 22:20:22.958  INFO 74792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-06 22:20:22.959  INFO 74792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-06 22:20:34.261  INFO 74792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-06 22:20:34.262  INFO 74792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-06 22:20:34.931  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.elasticsearch.EsLogDao.
+2020-08-06 22:20:35.265  INFO 74792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 980ms. Found 37 repository interfaces.
+2020-08-06 22:20:35.430  INFO 74792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-06 22:20:35.494  INFO 74792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-06 22:20:35.967  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.activiti.dao.ActBusinessDao.
+2020-08-06 22:20:35.970  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.activiti.dao.ActCategoryDao.
+2020-08-06 22:20:35.970  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.activiti.dao.ActModelDao.
+2020-08-06 22:20:35.971  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.activiti.dao.ActNodeDao.
+2020-08-06 22:20:35.972  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.activiti.dao.ActProcessDao.
+2020-08-06 22:20:35.973  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.activiti.dao.business.LeaveDao.
+2020-08-06 22:20:35.974  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.DepartmentDao.
+2020-08-06 22:20:35.976  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.DepartmentHeaderDao.
+2020-08-06 22:20:35.981  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.DictDao.
+2020-08-06 22:20:35.982  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.DictDataDao.
+2020-08-06 22:20:35.983  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.LogDao.
+2020-08-06 22:20:35.984  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.MessageDao.
+2020-08-06 22:20:35.985  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.MessageSendDao.
+2020-08-06 22:20:35.985  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.PermissionDao.
+2020-08-06 22:20:35.985  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.RoleDao.
+2020-08-06 22:20:35.987  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.RoleDepartmentDao.
+2020-08-06 22:20:35.988  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.RolePermissionDao.
+2020-08-06 22:20:35.989  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.SettingDao.
+2020-08-06 22:20:35.989  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.UserDao.
+2020-08-06 22:20:35.989  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.UserRoleDao.
+2020-08-06 22:20:35.990  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.base.dao.elasticsearch.EsLogDao.
+2020-08-06 22:20:35.990  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.file.dao.FileDao.
+2020-08-06 22:20:35.991  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.quartz.dao.QuartzJobDao.
+2020-08-06 22:20:35.992  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.social.dao.GithubDao.
+2020-08-06 22:20:35.993  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.social.dao.QQDao.
+2020-08-06 22:20:35.994  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.social.dao.WeiboDao.
+2020-08-06 22:20:35.995  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.StestDao.
+2020-08-06 22:20:35.996  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.CollegeDao.
+2020-08-06 22:20:35.997  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.fl_sensorDao.
+2020-08-06 22:20:35.998  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.fy_sensorDao.
+2020-08-06 22:20:35.998  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.GradeDao.
+2020-08-06 22:20:35.999  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.sensorDao.
+2020-08-06 22:20:36.000  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.sensor_componentDao.
+2020-08-06 22:20:36.001  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.sl_sensorDao.
+2020-08-06 22:20:36.002  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.stest1Dao.
+2020-08-06 22:20:36.003  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.StudentDao.
+2020-08-06 22:20:36.003  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.sw_sensorDao.
+2020-08-06 22:20:36.004  INFO 74792 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.exrick.xboot.modules.your.dao.sy_sensorDao.
+2020-08-06 22:20:36.004  INFO 74792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153ms. Found 0 repository interfaces.
+2020-08-06 22:20:38.454  INFO 74792 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2020-08-06 22:20:38.750  INFO 74792 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-08-06 22:20:38.751  INFO 74792 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-08-06 22:20:38.752  INFO 74792 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-08-06 22:20:38.753  INFO 74792 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2020-08-06 22:20:38.753  INFO 74792 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-08-06 22:20:38.754  INFO 74792 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-08-06 22:20:38.755  INFO 74792 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-08-06 22:20:38.755  INFO 74792 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-08-06 22:20:39.166  INFO 74792 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-08-06 22:20:39.441  INFO 74792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1596827b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 22:20:39.805  INFO 74792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisCacheConfig' of type [cn.exrick.xboot.config.cache.RedisCacheConfig$$EnhancerBySpringCGLIB$$a56e4284] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 22:20:39.936  INFO 74792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$ae444ab5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 22:20:39.962  INFO 74792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 22:20:39.969  INFO 74792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7a6f5cf2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 22:20:39.979  INFO 74792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$d318ed67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 22:20:39.997  INFO 74792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 22:20:40.471  INFO 74792 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-08-06 22:20:40.473  INFO 74792 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-08-06 22:20:42.344  INFO 74792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-06 22:20:42.462  INFO 74792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-06 22:20:42.462  INFO 74792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-06 22:20:43.174  INFO 74792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-06 22:20:43.174  INFO 74792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 20214 ms
+2020-08-06 22:20:43.212  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2020-08-06 22:20:43.334  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2020-08-06 22:20:43.335  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2020-08-06 22:20:43.335  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2020-08-06 22:20:43.335  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2020-08-06 22:20:43.335  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2020-08-06 22:20:43.335  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2020-08-06 22:20:43.337  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.ivGeneratorClassname, using default value: org.jasypt.salt.NoOpIVGenerator
+2020-08-06 22:20:43.340  INFO 74792 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2020-08-06 22:20:46.040  INFO 74792 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-06 22:20:46.932  INFO 74792 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-06 22:20:49.608  INFO 74792 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-08-06 22:20:49.877  INFO 74792 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-08-06 22:20:49.881  INFO 74792 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false, hibernate.dialect.storage_engine=innodb}
+2020-08-06 22:20:50.714  INFO 74792 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-08-06 22:20:52.179  INFO 74792 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-06 22:21:04.071  INFO 74792 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-06 22:21:06.079  WARN 74792 --- [restartedMain] c.e.x.c.s.p.MyFilterSecurityInterceptor  : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-08-06 22:21:06.834  INFO 74792 --- [restartedMain] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/xboot/actuator/jolokia' to jolokia-actuator-endpoint
+2020-08-06 22:21:07.191  INFO 74792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-06 22:21:10.372  INFO 74792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'primaryTaskExecutor'
+2020-08-06 22:21:12.845  INFO 74792 --- [restartedMain] o.a.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2020-08-06 22:21:12.847  INFO 74792 --- [restartedMain] o.a.e.i.a.AbstractAsyncJobExecutor       : Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2020-08-06 22:21:12.849  INFO 74792 --- [Thread-111] o.a.e.i.a.AcquireTimerJobsRunnable       : starting to acquire async jobs due
+2020-08-06 22:21:12.851  INFO 74792 --- [Thread-112] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : starting to acquire async jobs due
+2020-08-06 22:21:13.829  INFO 74792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-08-06 22:21:13.841  INFO 74792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-08-06 22:21:15.925  INFO 74792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-08-06 22:21:15.986  INFO 74792 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-08-06 22:21:15.986  INFO 74792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2020-08-06 22:21:15.993  INFO 74792 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-08-06 22:21:15.996  INFO 74792 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-08-06 22:21:16.001  INFO 74792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2020-08-06 22:21:16.002  INFO 74792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-08-06 22:21:16.003  INFO 74792 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2020-08-06 22:21:16.004  INFO 74792 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@52ac00ac
+2020-08-06 22:21:18.074  WARN 74792 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-06 22:21:18.773  INFO 74792 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/xboot/actuator'
+2020-08-06 22:21:19.159  INFO 74792 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-06 22:21:19.182  INFO 74792 --- [restartedMain] c.e.xboot.config.swagger.Swagger2Config  : 加载Swagger2
+2020-08-06 22:21:19.317  INFO 74792 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-08-06 22:21:19.472  INFO 74792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2020-08-06 22:21:21.527  INFO 74792 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-08-06 22:21:25.269  INFO 74792 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2020-08-06 22:21:25.271  INFO 74792 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-08-06 22:21:25.271  INFO 74792 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-08-06 22:21:25.271  INFO 74792 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-08-06 22:21:25.271  INFO 74792 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-08-06 22:21:25.271  INFO 74792 --- [restartedMain] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-08-06 22:21:30.849  INFO 74792 --- [restartedMain] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 127.0.0.1:9300
+2020-08-06 22:21:35.240  INFO 74792 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70ad71a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a8ad138, org.springframework.security.web.header.HeaderWriterFilter@5c150b3b, org.springframework.security.web.authentication.logout.LogoutFilter@6b4f206a, cn.exrick.xboot.config.security.validate.ImageValidateFilter$$EnhancerBySpringCGLIB$$701b6330@22c92d10, cn.exrick.xboot.config.security.validate.SmsValidateFilter$$EnhancerBySpringCGLIB$$f45ad22e@4c8e84a6, cn.exrick.xboot.config.security.validate.VaptchaValidateFilter$$EnhancerBySpringCGLIB$$3ea58122@65dc1098, cn.exrick.xboot.config.security.validate.EmailValidateFilter$$EnhancerBySpringCGLIB$$826132d1@6f35a069, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@56b3166f, cn.exrick.xboot.config.security.jwt.JWTAuthenticationFilter@282568e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47d0426c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e66216b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2aaafee4, org.springframework.security.web.session.SessionManagementFilter@6ecbbfb0, org.springframework.security.web.access.ExceptionTranslationFilter@92c7a91, cn.exrick.xboot.config.security.permission.MyFilterSecurityInterceptor@18869a3b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4533c726]
+2020-08-06 22:21:36.759  INFO 74792 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-06 22:21:36.909  INFO 74792 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-06 22:21:37.133  INFO 74792 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-06 22:21:37.742  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delByIdsUsingDELETE_1
+2020-08-06 22:21:37.802  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delByIdsUsingDELETE_2
+2020-08-06 22:21:37.883  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delByIdsUsingDELETE_3
+2020-08-06 22:21:37.960  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_1
+2020-08-06 22:21:37.990  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_2
+2020-08-06 22:21:38.274  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateStatusUsingPOST_1
+2020-08-06 22:21:38.728  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_3
+2020-08-06 22:21:38.785  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2020-08-06 22:21:38.800  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delByIdsUsingDELETE_4
+2020-08-06 22:21:38.815  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: editUsingPOST_1
+2020-08-06 22:21:38.831  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByParentIdUsingGET_1
+2020-08-06 22:21:38.846  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: searchByTitleUsingGET_1
+2020-08-06 22:21:38.861  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2020-08-06 22:21:38.871  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_1
+2020-08-06 22:21:38.884  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: editUsingPOST_2
+2020-08-06 22:21:38.899  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2020-08-06 22:21:38.926  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_3
+2020-08-06 22:21:38.942  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delByIdsUsingDELETE_5
+2020-08-06 22:21:39.017  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: editUsingPOST_3
+2020-08-06 22:21:39.047  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_4
+2020-08-06 22:21:39.132  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2020-08-06 22:21:39.175  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getFileListUsingGET_1
+2020-08-06 22:21:39.210  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_2
+2020-08-06 22:21:39.231  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_1
+2020-08-06 22:21:39.242  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2020-08-06 22:21:39.267  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_5
+2020-08-06 22:21:39.277  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_1
+2020-08-06 22:21:39.288  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2020-08-06 22:21:39.302  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2020-08-06 22:21:39.311  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_3
+2020-08-06 22:21:39.324  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_2
+2020-08-06 22:21:39.335  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_3
+2020-08-06 22:21:39.356  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_6
+2020-08-06 22:21:39.366  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_2
+2020-08-06 22:21:39.377  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2020-08-06 22:21:39.392  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_2
+2020-08-06 22:21:39.422  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_4
+2020-08-06 22:21:39.457  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_3
+2020-08-06 22:21:39.483  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_4
+2020-08-06 22:21:39.520  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_7
+2020-08-06 22:21:39.568  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_3
+2020-08-06 22:21:39.582  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_3
+2020-08-06 22:21:39.593  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_3
+2020-08-06 22:21:39.698  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_4
+2020-08-06 22:21:39.713  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_5
+2020-08-06 22:21:39.730  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_4
+2020-08-06 22:21:39.740  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_5
+2020-08-06 22:21:39.755  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_4
+2020-08-06 22:21:39.765  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_4
+2020-08-06 22:21:39.774  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_4
+2020-08-06 22:21:39.785  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delByIdsUsingDELETE_6
+2020-08-06 22:21:39.865  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_5
+2020-08-06 22:21:39.886  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_8
+2020-08-06 22:21:39.904  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_6
+2020-08-06 22:21:39.926  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_6
+2020-08-06 22:21:39.942  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_6
+2020-08-06 22:21:39.981  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_9
+2020-08-06 22:21:40.001  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_5
+2020-08-06 22:21:40.030  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_5
+2020-08-06 22:21:40.046  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_5
+2020-08-06 22:21:40.074  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_5
+2020-08-06 22:21:40.106  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delByIdsUsingDELETE_7
+2020-08-06 22:21:40.128  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: editUsingPOST_4
+2020-08-06 22:21:40.174  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: searchPermissionListUsingGET_1
+2020-08-06 22:21:40.184  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAccessTokenUsingGET_1
+2020-08-06 22:21:40.188  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingGET_1
+2020-08-06 22:21:40.273  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_7
+2020-08-06 22:21:40.325  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllUsingDELETE_1
+2020-08-06 22:21:40.402  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllByPageUsingGET_1
+2020-08-06 22:21:40.483  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_6
+2020-08-06 22:21:40.529  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delByIdsUsingDELETE_8
+2020-08-06 22:21:40.572  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: editUsingPOST_5
+2020-08-06 22:21:40.688  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_7
+2020-08-06 22:21:40.741  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_7
+2020-08-06 22:21:40.765  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_7
+2020-08-06 22:21:40.779  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_8
+2020-08-06 22:21:40.824  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_10
+2020-08-06 22:21:40.838  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_6
+2020-08-06 22:21:40.867  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_8
+2020-08-06 22:21:40.892  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_6
+2020-08-06 22:21:40.921  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_8
+2020-08-06 22:21:40.940  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_8
+2020-08-06 22:21:40.977  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_9
+2020-08-06 22:21:41.037  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_11
+2020-08-06 22:21:41.064  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_7
+2020-08-06 22:21:41.081  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_9
+2020-08-06 22:21:41.099  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_7
+2020-08-06 22:21:41.468  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_9
+2020-08-06 22:21:41.486  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_9
+2020-08-06 22:21:41.499  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_10
+2020-08-06 22:21:41.524  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_12
+2020-08-06 22:21:41.536  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_8
+2020-08-06 22:21:41.549  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_10
+2020-08-06 22:21:41.563  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_8
+2020-08-06 22:21:41.612  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_10
+2020-08-06 22:21:41.627  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_10
+2020-08-06 22:21:41.638  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_11
+2020-08-06 22:21:41.661  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_13
+2020-08-06 22:21:41.674  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_9
+2020-08-06 22:21:41.688  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_11
+2020-08-06 22:21:41.704  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_9
+2020-08-06 22:21:41.718  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_11
+2020-08-06 22:21:41.736  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_11
+2020-08-06 22:21:41.749  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_12
+2020-08-06 22:21:41.778  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_14
+2020-08-06 22:21:41.790  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_10
+2020-08-06 22:21:41.799  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_12
+2020-08-06 22:21:41.808  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_10
+2020-08-06 22:21:41.817  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_12
+2020-08-06 22:21:41.830  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_12
+2020-08-06 22:21:41.837  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_13
+2020-08-06 22:21:41.877  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_15
+2020-08-06 22:21:41.888  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_11
+2020-08-06 22:21:41.900  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_13
+2020-08-06 22:21:41.913  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_11
+2020-08-06 22:21:41.926  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_13
+2020-08-06 22:21:41.939  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_13
+2020-08-06 22:21:41.950  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_14
+2020-08-06 22:21:41.968  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_16
+2020-08-06 22:21:41.978  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_12
+2020-08-06 22:21:41.990  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_14
+2020-08-06 22:21:42.004  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_12
+2020-08-06 22:21:42.013  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_14
+2020-08-06 22:21:42.023  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_14
+2020-08-06 22:21:42.030  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_15
+2020-08-06 22:21:42.043  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_17
+2020-08-06 22:21:42.051  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByPageUsingGET_13
+2020-08-06 22:21:42.061  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_15
+2020-08-06 22:21:42.079  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_13
+2020-08-06 22:21:42.092  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: uploadUsingPOST_1
+2020-08-06 22:21:42.153  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delAllByIdsUsingDELETE_15
+2020-08-06 22:21:42.213  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: editUsingPOST_6
+2020-08-06 22:21:42.268  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_18
+2020-08-06 22:21:42.302  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_19
+2020-08-06 22:21:42.324  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByConditionUsingGET_20
+2020-08-06 22:21:42.464  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: registUsingPOST_1
+2020-08-06 22:21:42.582  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAccessTokenUsingGET_2
+2020-08-06 22:21:42.585  INFO 74792 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingGET_2
+2020-08-06 22:21:42.736  INFO 74792 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2020-08-06 22:21:42.737  INFO 74792 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-08-06 22:21:42.738  INFO 74792 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2020-08-06 22:21:42.739  INFO 74792 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-08-06 22:21:43.467  INFO 74792 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2020-08-06 22:21:43.801  INFO 74792 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2020-08-06 22:21:43.801  INFO 74792 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2020-08-06 22:21:43.802  INFO 74792 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2020-08-06 22:21:43.860  INFO 74792 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2020-08-06 22:21:43.862  INFO 74792 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-08-06 22:21:44.181  INFO 74792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-06 22:21:44.186  INFO 74792 --- [restartedMain] cn.exrick.xboot.XbootApplication         : Started XbootApplication in 83.672 seconds (JVM running for 88.393)
+2020-08-06 22:21:45.199  INFO 74792 --- [RMI TCP Connection(15)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-06 22:21:45.199  INFO 74792 --- [RMI TCP Connection(15)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-06 22:21:45.233  INFO 74792 --- [RMI TCP Connection(15)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2020-08-06 22:21:47.684  INFO 74792 --- [http-nio-8888-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-08-06 22:21:50.882  INFO 74792 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as e18a61ffb4b4
+2020-08-06 22:22:19.467  INFO 74792 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2020-08-06 22:52:19.626  INFO 74792 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
