@@ -213,6 +213,7 @@ ignored:
     - /xboot/stest/**
     - /xboot/sensor/**
     - /xboot/stest1/**
+    - /xboot/student/**
 
 # Actuator
 management:

@@ -24,7 +24,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Api(description = "学生类管理接口")
 @RequestMapping("/xboot/student")
 @Transactional
-public class studentController extends XbootBaseController<Student, String> {
+public class StudentController extends XbootBaseController<Student, String> {
 
     @Autowired
     private StudentService studentService;
@@ -38,8 +38,8 @@ public class studentController extends XbootBaseController<Student, String> {
     @RequestMapping(value = "/getByCondition", method = RequestMethod.GET)
     @ApiOperation(value = "多条件分页获取")
     public Result<Page<Student>> getByCondition(@ModelAttribute Student student,
-                                                @ModelAttribute SearchVo searchVo,
-                                                @ModelAttribute PageVo pageVo){
+                                                            @ModelAttribute SearchVo searchVo,
+                                                            @ModelAttribute PageVo pageVo){
 
         Page<Student> page = studentService.findByCondition(student, searchVo, PageUtil.initPage(pageVo));
         return new ResultUtil<Page<Student>>().setData(page);
