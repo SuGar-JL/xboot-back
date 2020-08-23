@@ -47,6 +47,11 @@ public class StudentServiceImpl implements StudentService {
             public Predicate toPredicate(Root<Student> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
 
                 // TODO 可添加你的其他搜索过滤条件 默认已有创建时间过滤
+                Path<String> nameField = root.get("name");
+                Path<String> sexField = root.get("sex");
+                Path<String> birthdayField = root.get("birthday");
+                Path<String> collegeNameField = root.get("collegeName");
+
                 Path<Date> createTimeField=root.get("createTime");
 
                 List<Predicate> list = new ArrayList<Predicate>();
@@ -57,7 +62,23 @@ public class StudentServiceImpl implements StudentService {
                     Date end = DateUtil.parse(searchVo.getEndDate());
                     list.add(cb.between(createTimeField, start, DateUtil.endOfDay(end)));
                 }
-
+                //模糊搜索
+                //姓名
+                if(StrUtil.isNotBlank(student.getName())){
+                    list.add(cb.like(nameField, '%'+student.getName()+'%'));
+                }
+                //学院
+                if(StrUtil.isNotBlank(student.getCollegeName())){
+                    list.add(cb.like(collegeNameField, '%'+student.getCollegeName()+'%'));
+                }
+                //性别
+                if(StrUtil.isNotBlank(student.getSex())){
+                    list.add(cb.equal(sexField, student.getSex()));
+                }
+                //生日
+                if(StrUtil.isNotBlank(student.getBirthday())){
+                    list.add(cb.equal(birthdayField, student.getBirthday()));
+                }
                 Predicate[] arr = new Predicate[list.size()];
                 cq.where(list.toArray(arr));
                 return null;
